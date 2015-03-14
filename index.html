@@ -40,28 +40,31 @@
 		<!-- stylesheets -->
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="loading">
 		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
+			<!-- <div id="bg"></div> -->
+			<!-- <div id="overlay"></div> -->
+			<div id="particles-js"></div>
+			<script src="js/particles.min.js"></script>
+			<script src="js/particle-config.js"></script>
 			<div id="main">
 
 				<!-- Header -->
 					<header id="header">
 						<h1>Krishna Aluru</h1>
-						<p><a href="http://represent.io/kcaluru" target="_blank">Resume</a> &nbsp;&bull;&nbsp; <a href="http://kcaluru.tumblr.com" target="_blank">Blog</a></p>
+						<p><a href="http://represent.io/kcaluru" target="_blank">Resume</a> <i class="fa fa-circle" id = "circle"></i> <a href="http://kcaluru.tumblr.com" target="_blank">Blog</a></p>
 						<nav>
 							<ul>
-								<li><a href="http://facebook.com/kcaluru" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="http://github.com/kcaluru" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="mailto:kcaluru5@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<li><a href="http://facebook.com/kcaluru" target="_blank" class="fa fa-facebook-official" id = "facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="http://github.com/kcaluru" target="_blank" class="icon fa-github" id = "github"><span class="label">Github</span></a></li>
+								<li><a href="mailto:kcaluru5@gmail.com" class="icon fa-envelope-o" id = "email"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
 					</header>
